@@ -12,8 +12,8 @@ Code:
 The notebooks are structured in a way that allows for step-by-step execution and analysis, starting from the extraction of recipe data to the analysis.
 The code is divided in 3 parts and is available in the following files. They are arranged in the order they should be executed:
 
-## Data Preprocessing:
-### 1. `1_recipe_extraction.ipynb`
+Data Preprocessing:
+`1_recipe_extraction`
 
 ### 2. `2_ingredient_extraction.ipynb`
 
