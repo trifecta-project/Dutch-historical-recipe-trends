@@ -13,24 +13,13 @@ The notebooks are structured in a way that allows for step-by-step execution and
 The code is divided in 3 parts and is available in the following files. They are arranged in the order they should be executed:
 
 Data Preprocessing:
-`1_recipe_extraction`
+`1_recipe_extraction` , `2_ingredient_extraction.ipynb` , `3_historical_recipe_web.ipynb` , `4_relative_frequency.ipynb`
 
-### 2. `2_ingredient_extraction.ipynb`
+Analysis: 
+`5_ingredient_usage_pattern.ipynb` , `6_recipe_complexity.ipynb` , `7_seasonal_usage_patterns.ipynb`
 
-### 3. `3_historical_recipe_web.ipynb`
-
-### 4. `4_relative_frequency.ipynb`
-
-## Analysis: 
-### 5. `5_ingredient_usage_pattern.ipynb`
-
-### 6. `6_recipe_complexity.ipynb`
-
-### 7. `7_seasonal_usage_patterns.ipynb`
-
-## Statistical Testing:
-
-### 8_stat_significance_mean.ipynb
+Statistical Testing:
+`8_stat_significance_mean.ipynb`
 
 
 Funded by the European Union under grant agreement 101088548 - TRIFECTA. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.
