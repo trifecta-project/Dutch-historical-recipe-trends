@@ -8,17 +8,21 @@ _Corpus_
 
 This folder contains all the cookbooks used to extract recipes and ingredients and a csv with newspaper data created in *van Erp, M., Wevers, M., & Huurdeman, H. (2018). Constructing a recipe web from historical newspapers. In The Semantic Web–ISWC 2018: 17th International Semantic Web Conference, Monterey, CA, USA, October 8–12, 2018, Proceedings, Part I 17 (pp. 217-232). Springer International Publishing*.
 
-Code:
+_Code_
+
 The notebooks are structured in a way that allows for step-by-step execution and analysis, starting from the extraction of recipe data to the analysis.
 The code is divided in 3 parts and is available in the following files. They are arranged in the order they should be executed:
 
-Data Preprocessing:
+_Data Preprocessing_
+
 `1_recipe_extraction` , `2_ingredient_extraction.ipynb` , `3_historical_recipe_web.ipynb` , `4_relative_frequency.ipynb`
 
-Analysis: 
+_Analysis_
+
 `5_ingredient_usage_pattern.ipynb` , `6_recipe_complexity.ipynb` , `7_seasonal_usage_patterns.ipynb`
 
-Statistical Testing:
+_Pearson correlation for average frequency over time_ 
+
 `8_stat_significance_mean.ipynb`
 
 
