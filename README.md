@@ -15,19 +15,19 @@ The code is divided in 3 parts and is available in the following files. They are
 
 _Data Preprocessing_
 
-The first notebboks are respectively used to process and extract recipes (1) and ingredients (2) from cookbooks and from newspapers (3), while the (4) is used to calculate the relative frequency of ingredients. 
+⚙️ The first notebooks are respectively used to process and extract recipes (1) and ingredients (2) from cookbooks and from newspapers (3), while the (4) is used to calculate the relative frequency of ingredients. 
 
 `1_recipe_extraction` , `2_ingredient_extraction.ipynb` , `3_historical_recipe_web.ipynb` , `4_relative_frequency.ipynb`
 
 _Analysis_
 
-The second set of notebooks is used for the analyses we proposed in the paper. The (5) looks at the most frequently shared ingredients across the different datasets and their evolution in terms of frewuency over time. The (6) looks at the recipe complexity according to the avergae number of ingredients employed, while (7) analyse the use of seasonal ingredients in newspaper recipes. 
+📊 The second set of notebooks is used for the analyses we proposed in the paper. The (5) looks at the most frequently shared ingredients across the different datasets and their evolution in terms of frequency over time. The (6) looks at the recipe complexity according to the avergae number of ingredients employed, while (7) analyse the use of seasonal ingredients in newspaper recipes. 
 
 `5_ingredient_usage_pattern.ipynb` , `6_recipe_complexity.ipynb` , `7_seasonal_usage_patterns.ipynb`
 
 _Pearson correlation for average frequency over time_ 
 
-In this notebook, we provide a calculation of the Pearson correlation for ingredients' average frequency and time, as well as visualisations for average distribution, standard deviation and confidence interval.
+📈 In this notebook, we provide a calculation of the Pearson correlation for ingredients' average frequency and time, as well as visualisations for average distribution, standard deviation and confidence interval.
 
 `8_stat_significance_mean.ipynb`
 
