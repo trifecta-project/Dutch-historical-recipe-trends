@@ -1,6 +1,6 @@
 # Dutch-historical-recipe-trends
 
-This is the repository accompanies the paper *Detecting Changing Culinary Trends Through Historical Recipes* by Gauri Bhagwat, Marieke van Erp, Teresa Paccosi, and Rikk Hoekstra (currently under review).
+This is the repository accompanies the paper *Detecting Changing Culinary Trends Through Historical Recipes* by Gauri Bhagwat, Marieke van Erp, Teresa Paccosi, and Rik Hoekstra (currently under review).
 
 This repository contains a **cleaned corpus** and a series of Jupyter notebooks used to analyze and process historical recipe data. 
 
