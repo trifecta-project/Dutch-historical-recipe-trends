@@ -1,0 +1,52 @@
+Table 2 in the article gives the results of the parsing of recipes with llm. 
+The recipes were first parsed to a json representation using the mistral llm model. The json results of the llm parsing were then converted to an xml representation, 
+- with a rule based json-xml conversion
+- with an llm based json-xml conversion
+This is more complicated than a straightforward comparison of the json output, but allows for a more structured comparison of the original recipe and the output. Table 2 indicates different statuses for the final output, comparing the rule-based XML and the LLM-based XML, evaluating for the existence of an <ingredienten> (ingredients) and a <bereiding> (preparation) section.
+There are the following possible outcomes:
+
+- "original_more_complete":
+    - Indicates that the original XML output has both "<ingredienten>" and "<bereiding>" tags,
+        while the LLM-generated output is missing one or both of these key elements.
+    - "details": Explains that the original XML is more complete.
+    - "better": "original", as the original XML contains all key elements.
+
+- "llm_more_complete":
+    - Indicates that the LLM-generated XML output has both "<ingredienten>" and "<bereiding>" tags,
+        while the original XML output is missing one or both of these key elements.
+    - "details": Explains that the LLM XML is more complete.
+    - "better": "llm", as the LLM XML contains all key elements.
+
+- "original_more_content":
+    - Indicates that the original XML output has significantly more text content than the
+        LLM-generated output (difference in length > 50 characters after stripping tags).
+    - "details": Explains that the original XML has significantly more content.
+    - "better": "original", as the original XML contains more information.
+
+- "llm_more_content":
+    - Indicates that the LLM-generated XML output has significantly more text content than the
+        original XML output (difference in length > 50 characters after stripping tags).
+    - "details": Explains that the LLM XML has significantly more content.
+    - "better": "llm", as the LLM XML contains more information.
+
+- "similar":
+    - Indicates that both XML outputs are structurally similar and have comparable content.
+        This is determined by passing all previous checks, including error checks, completeness,
+        and content length comparison.
+    - "details": Explains that both XML outputs are structurally similar and have comparable content.
+    - "better": "both", as both outputs are considered equally good.
+
+- "parsing_error":
+    - Indicates that an error occurred while parsing either the original or LLM-generated XML
+        using BeautifulSoup.
+    - "details": Provides the specific error message encountered during parsing.
+    - "better": "neither", as a parsing error prevents proper evaluation.
+
+Note that for reasons of structure there is no direct comparison with the source recipe text, as the absence of structure makes this complicated. A (shallow) comparison of missing words between the recipe text and the llm json results is:
+
+missing words	proportion
+0-1         	44%
+1-5             25%
+5-10        	16%
+10+         	14%
+
