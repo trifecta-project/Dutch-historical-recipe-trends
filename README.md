@@ -21,7 +21,7 @@ _Data Preprocessing_
 
 _Analysis_
 
-📊 The second set of notebooks is used for the analyses we proposed in the paper. The (5) looks at the most frequently shared ingredients across the different datasets and their evolution in terms of frequency over time. The (6) looks at the recipe complexity according to the avergae number of ingredients employed, while (7) analyse the use of seasonal ingredients in newspaper recipes. 
+📊 The second set of notebooks is used for the analyses we proposed in the paper. The (5) looks at the most frequently shared ingredients across the different datasets and their evolution in terms of frequency over time. The (6) looks at the recipe complexity according to the average number of ingredients employed, while (7) analyses the use of seasonal ingredients in newspaper recipes. 
 
 `5_ingredient_usage_pattern.ipynb` , `6_recipe_complexity.ipynb` , `7_seasonal_usage_patterns.ipynb`
 
