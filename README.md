@@ -2,7 +2,7 @@
 
 This is the repository for the paper *Detecting Changing Culinary Trends Through Historical Recipes* by Gauri Bhagwat, Marieke van Erp, Teresa Paccosi, and Rik Hoekstra (currently under review).
 
-This repository contains a **cleaned corpus** and a series of Jupyter notebooks used to analyze and process historical recipe data. 
+This repository contains a _cleaned_ corpus and a series of Jupyter notebooks used to analyse and process historical recipe data. 
 
 **Corpus**
 
