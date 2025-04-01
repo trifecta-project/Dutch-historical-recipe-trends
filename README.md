@@ -26,4 +26,4 @@ _Pearson correlation for average frequency over time_
 📈 In `8_stat_significance_mean.ipynb`, we provide a calculation of the Pearson correlation for ingredients' average frequency and time, as well as visualisations for average distribution, standard deviation and confidence interval.
 
 
-Funded by the European Union under grant agreement 101088548 - TRIFECTA. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.
+The present work is funded by the European Union under grant agreement 101088548 - TRIFECTA. Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them.
